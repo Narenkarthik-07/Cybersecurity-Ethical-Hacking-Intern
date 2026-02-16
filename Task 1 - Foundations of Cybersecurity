@@ -1,0 +1,89 @@
+# Task 1 - Foundations of Cybersecurity
+Author: Naren Karthik
+Internship: ApexPlanet Cybersecurity Internship
+
+
+## 1. Introduction to Cybersecurity
+
+Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. It ensures confidentiality, integrity, and availability of information.
+
+
+## 2. CIA Triad
+
+### Confidentiality
+Ensures that sensitive information is accessible only to authorized individuals.
+Methods:
+- Encryption
+- Access control
+- VPN
+- Multi-factor authentication
+
+### Integrity
+Ensures that data is not altered without authorization.
+Methods:
+- Hashing (SHA256, MD5)
+- Digital signatures
+- Checksums
+
+### Availability
+Ensures systems and services remain accessible when needed.
+Methods:
+- Redundant systems
+- Load balancing
+- DDoS protection
+
+
+## 3. Types of Cyber Attacks
+
+### Phishing
+Fake emails/websites designed to steal credentials.
+
+### Malware
+Malicious software such as:
+- Virus
+- Worm
+- Trojan
+- Ransomware
+
+### DDoS Attack
+Flooding a server with traffic to make it unavailable.
+
+### SQL Injection
+Injecting malicious SQL queries into input fields to bypass authentication or extract data.
+
+### Brute Force Attack
+Trying multiple password combinations until the correct one is found.
+
+
+## 4. Attack Vectors
+
+### Social Engineering
+Manipulating users into revealing sensitive information.
+
+### Wireless Attacks
+Exploiting vulnerabilities in Wi-Fi networks.
+
+### Insider Threat
+Threats originating from employees or authorized users.
+
+
+## 5. Important Security Concepts
+
+### Authentication vs Authorization
+Authentication verifies identity.
+Authorization determines access level.
+
+### Least Privilege Principle
+Users should have only the minimum access required.
+
+### Defense in Depth
+Using multiple layers of security to protect systems.
+
+
+## 6. Key Security Terminology
+
+- Vulnerability: A weakness in a system.
+- Threat: A potential cause of harm.
+- Risk: Likelihood of damage.
+- Exploit: Code that takes advantage of a vulnerability.
+- Patch: A fix for a vulnerability.
