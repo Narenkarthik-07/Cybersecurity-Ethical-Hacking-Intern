@@ -1,0 +1,94 @@
+1. File System Navigation
+Command	Description
+pwd	Print current directory
+ls	List files
+ls -la	List all files with permissions
+cd <dir>	Change directory
+cd ..	Move one directory back
+clear	Clear terminal screen
+
+2. File & Directory Management
+Command	Description
+mkdir <folder>	Create new folder
+rmdir <folder>	Remove empty folder
+rm <file>	Delete file
+rm -r <folder>	Delete folder recursively
+cp <src> <dest>	Copy file
+mv <src> <dest>	Move or rename file
+touch <file>	Create empty file
+
+3. File Permissions
+Command	Description
+chmod 777 <file>	Give full permissions
+chmod +x <file>	Make file executable
+chown user:group <file>	Change file ownership
+ls -l	View file permissions
+
+Permission Format:
+
+r = read
+w = write
+x = execute
+
+4. Package Management (Debian/Kali)
+Command	Description
+sudo apt update	Update package list
+sudo apt upgrade	Upgrade packages
+sudo apt install <pkg>	Install package
+sudo apt remove <pkg>	Remove package
+dpkg -i <file.deb>	Install .deb file
+
+5. Networking Commands
+Command	Description
+ifconfig	Show IP address
+ip a	Show network interfaces
+ping <IP>	Test connectivity
+netstat -tulnp	Show open ports
+ss -tuln	List listening ports
+traceroute <IP>	Trace packet route
+
+6. Basic Scanning & Enumeration
+Command	Description
+nmap <IP>	Basic scan
+nmap -sS <IP>	SYN scan
+nmap -sV <IP>	Service version detection
+whoami	Current user
+id	User ID info
+
+7. Process Management
+Command	Description
+ps	Show running processes
+ps aux	Detailed process list
+top	Real-time process monitor
+kill <PID>	Kill process
+kill -9 <PID>	Force kill
+
+8. OpenSSL (Cryptography Basics)
+
+Encrypt File:
+
+openssl enc -aes-256-cbc -salt -in file.txt -out encrypted.txt
+
+Decrypt File:
+
+openssl enc -aes-256-cbc -d -in encrypted.txt -out decrypted.txt
+
+Hash File:
+
+sha256sum file.txt
+md5sum file.txt
+
+9. Useful Shortcuts
+Shortcut	Action
+Ctrl + C	Stop running command
+Ctrl + Z	Pause process
+Tab	Auto-complete
+history	Show command history
+
+10. Important Directories
+Directory	Purpose
+/home	User files
+/etc	Configuration files
+/var	Logs
+/bin	System binaries
+/root	Root user home
